@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# https://github.com/ethanr-io/jamf-scripts
 # Tested on macOS 15.1
 
 loggedInUser=$(ls -l /dev/console | awk '{ print $3 }')
