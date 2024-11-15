@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # https://github.com/ethanr-io/jamf-scripts
-# Tested on macOS 15.1
+# Tested on macOS 15
 
 loggedInUser=$(ls -l /dev/console | awk '{ print $3 }')
 # Alt: loggedInUser=$(stat -f%Su /dev/console)
